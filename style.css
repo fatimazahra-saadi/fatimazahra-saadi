@@ -1,19 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     margin: 0;
-    background-color: #f1f5f9;
+    background: #fff7fb;
+    color: #475569;
 }
 
 /* HEADER */
 header {
     text-align: center;
-    padding: 25px;
+    padding: 30px;
 }
 
 .photo {
-    width: 150px;
+    width: 160px;
     border-radius: 50%;
-    box-shadow: 0 0 20px gray;
+    box-shadow: 0 0 25px rgba(244,114,182,0.6);
+    margin-bottom: 15px;
 }
 
 /* MENU */
@@ -21,12 +23,13 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #0f172a;
-    padding: 12px;
+    background: linear-gradient(135deg, #f472b6, #a855f7);
+    padding: 14px;
+    margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 18px;
 }
 
 nav ul li a {
@@ -38,10 +41,10 @@ nav ul li a {
 /* SECTIONS */
 section {
     background-color: white;
-    margin: 25px;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 15px gray;
+    margin: 30px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 /* TABLE */
@@ -50,14 +53,26 @@ table {
     border-collapse: collapse;
 }
 
+th {
+    background-color: #fce7f3;
+    color: #a855f7;
+}
+
 th, td {
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid #f3c6dc;
+    padding: 12px;
     text-align: center;
 }
 
-th {
-    background-color: #e5e7eb;
+/* EMAIL BUTTON */
+.email-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #f472b6, #a855f7);
+    color: white;
+    padding: 12px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* QR CODE */
@@ -68,7 +83,9 @@ th {
 }
 
 .qrcode img {
-    width: 110px;
+    width: 120px;
+    box-shadow: 0 0 15px rgba(168,85,247,0.5);
+    border-radius: 12px;
 }
 
 /* BOUTON HAUT */
@@ -76,22 +93,28 @@ th {
     position: fixed;
     left: 20px;
     bottom: 20px;
-    background-color: black;
+    background-color: #a855f7;
     color: white;
-    padding: 12px;
+    padding: 14px;
     text-decoration: none;
     border-radius: 50%;
 }
 
 /* FOOTER */
 footer {
-    background-color: #020617;
+    background-color: #1f1b2e;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
+}
+
+#copyright {
+    color: #f9a8d4;
+    font-weight: bold;
 }
 
 #copyright {
     color: #facc15;
     font-weight: bold;
 }
+
